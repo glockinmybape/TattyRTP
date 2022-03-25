@@ -1,0 +1,4 @@
+org\glockinmybape\tattyrtp\Main.class
+org\glockinmybape\tattyrtp\Utils\Cooldown.class
+org\glockinmybape\tattyrtp\RtpManager.class
+org\glockinmybape\tattyrtp\commands\RtpCmd.class

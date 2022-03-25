@@ -1,0 +1,8 @@
+name: TattyRTP
+version: '1.0'
+main: org.glockinmybape.tattyrtp.Main
+authors: [ glockinmybape ]
+description: TattyRTP
+softdepend: [ Vault ]
+commands:
+  rrtp:

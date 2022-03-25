@@ -1,0 +1,89 @@
+world: 'world' # Мир в котором будет телепорт.
+x-max: 5000
+z-max: 5000
+x-min: -5000
+z-min: -5000
+avoid-blocks:
+  - AIR
+  - LAVA
+  - STATIONARY_LAVA
+  - WATER
+  - STATIONARY_WATER
+  - WOOD
+  - WOOL
+  - GLASS
+  - COBBLESTONE
+  - LEAVES
+  - LEAVES_2
+near: 100
+min: 5 # Минимальное число игроков для /rtp near
+message:
+  rtp-safe:
+    - '&b&l| &fРандомная телепортация'
+    - '&b&l| &fВы телепортировались на координаты &b{xyz}&f.'
+  rtp-near:
+    - '&b&l| &fРандомная телепортация'
+    - '&b&l| &fВы телепортировались рядом с игроком &b{name}&f.'
+  permission:
+    - '&b&l| &fУ вас недостаточно прав.'
+  argument:
+    - '&b&l| &fНеверный аргумент.'
+  disable:
+    - '&b&l| &fВы не можете использовать рандомную телепортацию в этом мире.'
+  cooldown:
+    - '&b6&l| &fПеред использованием телепортации подождите еще &b{cooldown}'
+  min:
+    - '&b&l| &fВы не можете телепортироваться, в вашем мире меньше 5 игроков.'
+groups:
+  default:
+    near-cooldown: 30 # 1 - 1 секунда.
+    safe-cooldown: 10
+    near: false
+  elder:
+    near-cooldown: 30
+    safe-cooldown: 10
+    near: true
+  junior:
+    near-cooldown: 30
+    safe-cooldown: 10
+    near: true
+  legend:
+    near-cooldown: 30
+    safe-cooldown: 10
+    near: true
+  overlord:
+    near-cooldown: 30
+    safe-cooldown: 10
+    near: true
+  neon:
+    near-cooldown: 30
+    safe-cooldown: 10
+    near: true
+  furry:
+    near-cooldown: 30
+    safe-cooldown: 10
+    near: true
+  dejavu:
+    near-cooldown: 30
+    safe-cooldown: 10
+    near: true
+  helper:
+    near-cooldown: 30
+    safe-cooldown: 10
+    near: true
+  moder:
+    near-cooldown: 30
+    safe-cooldown: 10
+    near: true
+  s.moder:
+    near-cooldown: 30
+    safe-cooldown: 10
+    near: true
+  builder:
+    near-cooldown: 30
+    safe-cooldown: 10
+    near: true
+  admin:
+    near-cooldown: 0
+    safe-cooldown: 0
+    near: true
